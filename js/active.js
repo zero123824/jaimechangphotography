@@ -151,6 +151,10 @@
         $(this).addClass('active');
     })
 
+    $('.nav-link').on('click', function () {
+        event.stopPropagation();
+    })
+
     // :: Masonary Gallery Active Code
     if ($.fn.imagesLoaded) {
         $('.sonar-portfolio').imagesLoaded(function () {
