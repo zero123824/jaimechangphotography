@@ -586,7 +586,10 @@ img {
 
 /* :: Menu Open CSS */
 .menu-open .mainMenu {
-  right: 0; }
+  right: 0; 
+  overflow: overlay;
+  position: fixed;
+}
 
 /* :: Hero Slides Area CSS */
 .hero-slides .single-hero-slide {
