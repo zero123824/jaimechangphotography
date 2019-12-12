@@ -589,6 +589,7 @@ img {
   right: 0; 
   overflow: overlay;
   position: fixed;
+  z-index:9999;
 }
 
 /* :: Hero Slides Area CSS */
