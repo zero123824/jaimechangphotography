@@ -484,6 +484,7 @@ img {
       .header-area .menu-content-area .header-social-area {
         margin-right: 15px; } }
   .header-area.sticky {
+    overflow: auto;
     background-color: #232323; }
   @media only screen and (max-width: 767px) {
     .header-area {
@@ -527,7 +528,7 @@ img {
       .mainMenu .closeIcon {
         right: 30px;
         top: 30px; } }
-  .mainMenu .logo-area a {
+  .mainMenu .logo-area a {overflow: auto;
     color: #ffffff;
     font-size: 30px;
     display: block;
