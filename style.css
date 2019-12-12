@@ -23,7 +23,7 @@
   margin: 0;
   padding: 0; }
 html {
-    overflow:scroll;
+    overflow:auto;
     -webkit-overflow-scrolling: touch;
 }
 body {
@@ -587,7 +587,8 @@ img {
 /* :: Menu Open CSS */
 .menu-open .mainMenu {
   right: 0; 
-  overflow: overlay;
+  overflow: auto;
+  display: inline-block;
   position: fixed;
   z-index:9999;
 }
